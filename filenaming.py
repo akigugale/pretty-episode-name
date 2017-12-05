@@ -33,7 +33,7 @@ for j in range(len(l)):
 	print(l[j], '--->', lnew[j])
 
 #renaming
-confirmation = input("\n\nDo you with to Rename the files [Yes/No] [Y/N] :: ")
+confirmation = input("\n\nDo you wish to Rename the files [Yes/No] [Y/N] :: ")
 if confirmation in ['Yes','Y','y','yes'] :
 	print('\nrenaming..')
 	for k in range(len(l)):
